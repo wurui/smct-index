@@ -20,7 +20,7 @@
 
             <div class="line"></div>
 
-            <section class="section" style="background-color: #9e8eb8;height:250px;">
+            <section class="section" style="background-color: #9991b6;height:250px;">
                 <div style="min-height: 180px;">
                     <img src="http://i.oxm1.cc/uploads/git/wurui/img/2ahl2rdo1Tj1raa81rRyz10Arf8-563.jpg" style="margin-top:70px;"/>
                 </div>
@@ -59,12 +59,12 @@
 
                 <div class="process">
                     <span class="step">
-                        <i class="iconfont">&#xe67c;</i>
+                        <i class="iconfont" style="margin-top:-3px;">&#xe67c;</i>
                         开始定制
                     </span>
                     <i class="arrow">&#xe608;</i>
                     <span class="step">
-                        <i class="iconfont">&#xe64b;</i>
+                        <i class="iconfont" style="margin-top:-2px;">&#xe64b;</i>
                         
                         选择喜欢的模板、颜色
                         填写文案
