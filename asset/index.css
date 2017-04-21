@@ -1,3 +1,102 @@
-.oxmod-smct-index{
-/* CSS */
- }
+@font-face {
+  font-family: 'smct-index-iconfont';
+  /* project id 266910 */
+  src: url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.eot');
+  src: url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.woff') format('woff'), url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.ttf') format('truetype'), url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.svg#iconfont') format('svg');
+}
+.oxmod-smct-index {
+  /* CSS */
+  color: #555;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+.oxmod-smct-index .iconfont {
+  font-family: smct-index-iconfont;
+  font-style: normal;
+}
+.oxmod-smct-index .bt-start {
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  background-color: #0b97c4;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #ccc;
+  transition: all .5s;
+  display: inline-block;
+  line-height: 50px;
+  text-decoration: none;
+  text-align: center;
+}
+.oxmod-smct-index .bt-start:hover {
+  opacity: .9;
+}
+.oxmod-smct-index .process {
+  text-align: left;
+  padding: 0px 20px;
+}
+.oxmod-smct-index .step {
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: top;
+  width: 100%;
+  line-height: 20px;
+}
+.oxmod-smct-index .step .iconfont {
+  color: #09c;
+  font-size: 20px;
+  vertical-align: baseline;
+  display: inline-block;
+  margin-right: 10px;
+}
+.oxmod-smct-index .arrow {
+  font-family: smct-index-iconfont;
+  font-style: normal;
+  color: #ccc;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  transform: rotate(90deg);
+  margin-left: 35px;
+}
+.oxmod-smct-index .ul-1 {
+  color: #fff;
+  margin-top: -210px;
+  text-align: left;
+  margin-left: 10px;
+  padding-left: 16px;
+}
+.oxmod-smct-index .ul-1 li {
+  list-style: disc;
+}
+.oxmod-smct-index .supports .iconfont {
+  font-size: 30px;
+  letter-spacing: 20px;
+  color: #ccc;
+}
+.oxmod-smct-index .usage {
+  padding-left: 16px;
+  text-align: left;
+  margin: 1px 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.oxmod-smct-index .usage li {
+  list-style: decimal;
+}
+.oxmod-smct-index .title:before,
+.oxmod-smct-index .title:after {
+  content: '';
+  width: 50px;
+  border-top: solid 1px #ddd;
+  display: inline-block;
+  margin: 0px 15px 0;
+  vertical-align: middle;
+}
+.oxmod-smct-index footer {
+  border-top: dotted 1px #ddd;
+  font-weight: 300;
+  font-size: 12px;
+  padding: 5px;
+}
