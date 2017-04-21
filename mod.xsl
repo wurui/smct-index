@@ -3,12 +3,12 @@
         <xsl:param name="startlink">builder.html</xsl:param>
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-smct-index" ox-mod="smct-index">
-            <section class="section" style="background-color: #ececec;min-height: 300px;">
+            <section class="section" style="background-color: #ececec;min-height: 320px;">
                 <!--
                 <span class="pic"></span>
                 -->
                 <img src="http://i.oxm1.cc/uploads/git/wurui/img/2ahl2recdTj1raa7dfRncfqAoic-577.jpg" width="320"/>
-
+                <br/><br/>
                 <h4>扫码车贴 个性定制</h4>
                 <br/>
                 <p>
@@ -20,9 +20,9 @@
 
             <div class="line"></div>
 
-            <section class="section" style="background-color: #9e8eb8;height:220px;">
+            <section class="section" style="background-color: #9e8eb8;height:250px;">
                 <div style="min-height: 180px;">
-                    <img src="http://i.oxm1.cc/uploads/git/wurui/img/2ahl2rdo1Tj1raa81rRyz10Arf8-563.jpg" style="margin-top:40px;"/>
+                    <img src="http://i.oxm1.cc/uploads/git/wurui/img/2ahl2rdo1Tj1raa81rRyz10Arf8-563.jpg" style="margin-top:70px;"/>
                 </div>
                 <ul class="ul-1">
                     <li>车主信息保密</li>
@@ -52,11 +52,9 @@
                     </span>
                 </div>
 
-                <h3></h3>
             </section>
 
             <section class="section" style="background-color: #f0f0f0">
-                <br/>
                 <h3 class="title">定制流程</h3>
 
                 <div class="process">
@@ -103,8 +101,6 @@
                         收货
                     </span>
                 </div>
-                <br/>
-                <br/>
                 <h3 class="title">使用方法</h3>
 
                 <ol class="usage">
@@ -122,8 +118,6 @@
                         若已经完成设置,再次进行设置页面可停用或注销本张车贴。停用或注销状态下,车主将不会收到本产品通知短信。
                     </li>
                 </ol>
-                <br/>
-                <br/>
                 <h3 class="title">注意事项</h3>
                 <ol class="usage">
 
