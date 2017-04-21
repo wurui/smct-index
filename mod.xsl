@@ -33,7 +33,7 @@
             </section>
 
 
-            <section class="section" style="background-color: #fcfcfc;min-height: 300px;">
+            <section class="section" style="background-color: #fcfcfc;min-height: 280px;">
                 <p>
                     <img src="http://i.oxm1.cc/uploads/git/wurui/img/2ahl2rd1rTj1raa8o1RnofsA6u5-1100.jpg" style="margin-top:20px;"/>
                 </p>
@@ -55,6 +55,7 @@
             </section>
 
             <section class="section" style="background-color: #f0f0f0">
+                <br/>
                 <h3 class="title">定制流程</h3>
 
                 <div class="process">
@@ -66,20 +67,17 @@
                     <span class="step">
                         <i class="iconfont" style="margin-top:-2px;">&#xe64b;</i>
                         
-                        选择喜欢的模板、颜色
-                        填写文案
-                    </span>
+                        选择喜欢的模板、颜色,填写文案
+                    </span><!--
                     <i class="arrow">&#xe608;</i>
                     <span class="step">
                         <i class="iconfont">&#xe721;</i>
-                        
                         保存
-                    </span>
+                    </span>-->
                     <i class="arrow">&#xe608;</i>
                     <span class="step">
                         <i class="iconfont">&#xe64d;</i>
-                        
-                        下单支付
+                        保存提交,下单支付
                     </span>
                     <i class="arrow">&#xe608;</i>
                     <span class="step">
@@ -109,13 +107,13 @@
                         输入接收短信通知手机号,接收填写验证码完成绑定
                     </li>
                     <li>
-                        将此车贴贴到前挡玻璃等位置,展示用户端二维码
+                        将此车贴贴到汽车前挡玻璃等位置,展示二维码
                     </li>
                     <li>
                         用户扫码后,输入理由及上传现场照片,点击提交,车主所设置的手机号在约10秒内会收到通知短信
                     </li>
                     <li>
-                        若已经完成设置,再次进行设置页面可停用或注销本张车贴。停用或注销状态下,车主将不会收到本产品通知短信。
+                        若已经完成激活,可停用或注销本张车贴。停用或注销状态下,车主将不会收到本产品通知短信。
                     </li>
                 </ol>
                 <h3 class="title">注意事项</h3>
@@ -123,7 +121,7 @@
 
                     <li>相同的颜色色值,在电脑显示器与实际印刷品视觉呈现上存在一定色差</li>
                     <li>
-                        为防止车主遭到不必要的骚扰,2小时间内一部手机重复扫码只会发送1次通知
+                        为防止车主遭到不必要的骚扰,2小时内的重复扫码只会发送1次通知
                     </li>
 
                 </ol>
