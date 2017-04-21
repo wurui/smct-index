@@ -7,7 +7,7 @@
                 <!--
                 <span class="pic"></span>
                 -->
-                <img src="asset/1.jpg" width="320"/>
+                <img src="http://i.oxm1.cc/uploads/git/wurui/img/2ahl2recdTj1raa7dfRncfqAoic-577.jpg" width="320"/>
 
                 <h4>扫码车贴 个性定制</h4>
                 <br/>
@@ -22,7 +22,7 @@
 
             <section class="section" style="background-color: #9e8eb8;height:220px;">
                 <div style="min-height: 180px;">
-                    <img src="asset/2.jpg" style="margin-top:40px;"/>
+                    <img src="http://i.oxm1.cc/uploads/git/wurui/img/2ahl2rdo1Tj1raa81rRyz10Arf8-563.jpg" style="margin-top:40px;"/>
                 </div>
                 <ul class="ul-1">
                     <li>车主信息保密</li>
@@ -35,7 +35,7 @@
 
             <section class="section" style="background-color: #fcfcfc;min-height: 300px;">
                 <p>
-                    <img src="asset/safe.jpeg" style="margin-top:20px;"/>
+                    <img src="http://i.oxm1.cc/uploads/git/wurui/img/2ahl2rd1rTj1raa8o1RnofsA6u5-1100.jpg" style="margin-top:20px;"/>
                 </p>
 
                 <div class="supports">
