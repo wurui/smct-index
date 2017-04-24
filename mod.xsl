@@ -21,7 +21,7 @@
             <div class="line"></div>
 
             <section class="section" style="background-color: #9991b6;height:250px;">
-                <div style="min-height: 180px;">
+                <div style="min-height: 250px;">
                     <img src="http://i.oxm1.cc/uploads/git/wurui/img/2ahl2rdo1Tj1raa81rRyz10Arf8-563.jpg" style="margin-top:70px;"/>
                 </div>
                 <ul class="ul-1">
