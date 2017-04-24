@@ -136,20 +136,7 @@
                 <br/>
 
             </section>
-            <footer>
 
-                <span>
-                    &#169;杭州声罄科技有限公司
-                    &#160;&#160;
-                    &#160;&#160;联系方式
-                    <a href="mailto:smct@senking.tech">smct@senking.tech</a>
-                </span>
-                <br/>
-                <span>
-                    浙ICP备15031769号-1
-                </span>
-
-            </footer>
         </div>
     </xsl:template>
 </xsl:stylesheet>
