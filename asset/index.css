@@ -98,3 +98,17 @@
   margin: 0px 15px 0;
   vertical-align: middle;
 }
+.oxmod-smct-index .func em {
+  font-size: 1.2em;
+  color: #333;
+  font-style: normal;
+}
+.oxmod-smct-index .screen-demo {
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+}
+.oxmod-smct-index .screen-demo img {
+  width: 140px;
+  margin: 5px;
+}

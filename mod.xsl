@@ -3,18 +3,61 @@
         <xsl:param name="startlink">builder.html</xsl:param>
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-smct-index" ox-mod="smct-index">
-            <section class="section" style="background-color: #ececec;min-height: 320px;">
-                <!--
-                <span class="pic"></span>
-                -->
-                <img src="http://i.oxm1.cc/uploads/git/wurui/img/2ahl2recdTj1raa7dfRncfqAoic-577.jpg" width="320"/>
-                <br/><br/>
-                <h4>扫码车贴 个性定制</h4>
+            <section class="section"
+                     style="font-size:16px;background:url(http://v.oxm1.cc/img/sucai/line-1.png) repeat 0 0; color:#fff;">
+                
+                <h1 style="color:silver;">
+                    <small>这是解决关于移车的难题</small>
+                    <br/>
+                    留下电话,怕骚扰?
+                    <br/>不留,怕车受伤害?
+                    <br/><br/>
+                </h1>
+
+                <h1 style="color:gold;border-top:solid 1px silver;">
+                    <big>扫 码 车 贴</big>
+                </h1>
+
+                <div style="min-height: 250px;">
+                    <img src="http://v.oxm1.cc/img/sucai/smct.png"
+                         style="margin-top:10px;"/>
+                </div>
+                <div style="padding:0 15px;"><br/>
+                    扫码车贴是由声罄科技有限公司自主研发的一款全新的免费移车服务软件,
+                    通过手机移动互联网平台发送移车信息;
+
+                    <br/><br/>
+                    保障车主信息安全,文明、时尚、便捷地解决车辆堵挡问题
+                </div>
+                <div style="color:gold;border-top:solid 1px silver;margin:20px auto;">
+                    <div style="font-size:30px;">扫码车贴为您保驾护航</div>
+                    <div style="font-size:16px;">安全&#183;时尚&#183;便捷</div>
+                </div>
                 <br/>
-                <p>
-                    <a href="{$startlink}" class="bt-start">开始制作 &#187;</a>
-                </p>
+
             </section>
+            <section class="section" style="background-color: #f5f5f5;">
+                <br/>
+                <h2 style="font-size:30px;letter-spacing: 1px;">扫码车贴为您解决</h2>
+                <br/>
+
+
+                <img src="http://v.oxm1.cc/img/sucai/func.png" width="300"/>
+                <table width="100%" class="func">
+                    <tbody>
+                        <tr>
+                            <td>拒绝信息泄露<br/><em class="em">更安心</em></td>
+                            <td>没有骚扰电话<br/><em class="em">更舒心</em></td>
+                            <td>爱车不再爱伤<br/><em class="em">更放心</em></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <br/><br/>
+
+
+            </section>
+
 
             <div class="line"></div>
 
@@ -31,25 +74,49 @@
             </section>
 
 
-            <section class="section" style="background-color: #fcfcfc;min-height: 280px;">
-                <p>
-                    <img src="http://i.oxm1.cc/uploads/git/wurui/img/2ahl2rd1rTj1raa8o1RnofsA6u5-1100.jpg" style="margin-top:20px;"/>
-                </p>
+            <section class="section" style="background-color: #3f86d2;">
+                <br/>
+                <h2 style="color:#fff;font-size:24px;">车主激活流程</h2>
+                <span class="screen-demo">
+                    <img class="screenshot" src="http://v.oxm1.cc/img/screeen/shot1m.jpg"/>
+                    <br/>
+                    1. 未激活车贴扫码<br/> 进入激活页面
+                </span>
+                <span class="screen-demo"><img class="screenshot" src="http://v.oxm1.cc/img/screeen/shot2m.jpg"/>
+                    <br/>
+                    2. 输入车主手机号<br/> 发送验证码
+                </span>
+                <span class="screen-demo"><img class="screenshot" src="http://v.oxm1.cc/img/screeen/shot3m.jpg"/>
+                    <br/>
+                    3. 填写验证码<br/> 点击提交
+                </span>
+                <span class="screen-demo"><img class="screenshot" src="http://v.oxm1.cc/img/screeen/shot4m.jpg"/>
+                    <br/>
+                    4. 激活成功
+                </span>
 
-                <div class="supports">
-                    <h4>扫码用户特征识别,防止恶意骚扰</h4>
-                    <span>
-                        <i class="iconfont">&#xe610;</i>
-                    </span>
-                    <span>
-                        <i class="iconfont">&#xe6dd;</i>
-
-                    </span>
-                    <span>
-                        <i class="iconfont">&#xe605;</i>
-                    </span>
-                </div>
-
+                <br/><br/>
+                <h2 style="color:#fff;font-size:24px;">用户扫码通知流程</h2>
+                <span class="screen-demo"><img class="screenshot" src="http://v.oxm1.cc/img/screeen/shot6m.jpg"/>
+                    <br/>
+                    1. 扫码进入本页
+                    <br/>在‘理由’选项中选择
+                </span>
+                <span class="screen-demo">
+                    <img class="screenshot" src="http://v.oxm1.cc/img/screeen/shot7m.jpg"/>
+                    <br/>
+                    2. 可以上传1~3张现场图片<br/>点击“+”号调用相机
+                </span>
+                <span class="screen-demo">
+                    <img class="screenshot" src="http://v.oxm1.cc/img/screeen/shot9m.jpg"/>
+                    <br/>
+                    3. 点击提交
+                </span>
+                <span class="screen-demo"><img class="screenshot" src="http://v.oxm1.cc/img/screeen/shot10m.jpg"/>
+                    <br/>
+                    4.　车主收到通知<br/>点击附带的链接<br/>可查看用户上传图片等信息
+                </span>
+                <br/><br/>
             </section>
 
             <section class="section" style="background-color: #f0f0f0">
@@ -95,20 +162,14 @@
                         收货
                     </span>
                 </div>
-                <h3 class="title">使用方法</h3>
+                <br/>
+                <br/>
+                <p>
+                    <a href="{$startlink}" class="bt-start">开始制作 &#187;</a>
+                </p>
+                <br/>
+                <br/>
 
-                <ol class="usage">
-                    <li>车主扫描正面的二维码,在未激活状态下,会自动进入车主设置页面</li>
-                    <li>
-                        输入车主手机号,按提示填写表单完成激活
-                    </li>
-                    <li>
-                        将此车贴贴到前挡玻璃等位置,展示二维码
-                    </li>
-                    <li>
-                        他人扫码后,填写理由及上传现场照片,点击提交,车主手机号在即收到通知短信
-                    </li>
-                </ol>
                 <h3 class="title">注意事项</h3>
                 <ol class="usage">
 
@@ -122,10 +183,19 @@
                 </ol>
                 <br/>
                 <br/>
+                <h3 class="title">公告</h3>
+                <ol class="usage">
+                    <li>
+                        感谢大家的支持,产品刚上线,使用量有了很大增长,偶尔暴露了一些小问题,我们都第一时间修复,所以上线频繁,导致访问有时不稳定。请谅解!
+                    </li>
+                    <li>
+                        产品咨询、使用上的问题、意见投诉都可通过邮箱<a href="mailto:smct@senking.tech">smct@senking.tech</a>来联系我们。
+                        我们会第一时间处理。
+                    </li>
+
+                </ol>
                 <br/>
-                <p>
-                    <a href="{$startlink}" class="bt-start">开始制作 &#187;</a>
-                </p>
+
 
                 <br/>
                 <br/>
