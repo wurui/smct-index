@@ -67,6 +67,7 @@
   text-align: left;
   margin-left: 10px;
   padding-left: 16px;
+  font-size: 18px;
 }
 .oxmod-smct-index .ul-1 li {
   list-style: disc;
@@ -98,6 +99,41 @@
   margin: 0px 15px 0;
   vertical-align: middle;
 }
+.oxmod-smct-index .demoplayer {
+  height: 200px;
+}
+.oxmod-smct-index .demoplayer .demo {
+  transition: all .5s;
+  transform: translate(100%, 0);
+}
+.oxmod-smct-index .demoplayer .current {
+  transform: translate(0%, 0);
+  z-index: 1;
+  opacity: 1;
+}
+.oxmod-smct-index .demoplayer .current-out {
+  transform: translate(-100%, 0);
+}
+.oxmod-smct-index .demo {
+  display: inline-block;
+  vertical-align: top;
+  color: #f10;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  z-index: 0;
+  text-shadow: 0 0 5px #000;
+  overflow: hidden;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.oxmod-smct-index .demo img {
+  width: 100%;
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: -40px;
+}
 .oxmod-smct-index .func em {
   font-size: 1.2em;
   color: #333;
@@ -111,4 +147,42 @@
 .oxmod-smct-index .screen-demo img {
   width: 140px;
   margin: 5px;
+}
+.oxmod-smct-index .features {
+  text-align: left;
+  margin-left: 20px;
+}
+.oxmod-smct-index .features li {
+  list-style: disc;
+  padding: 5px 0;
+}
+@keyframes gogogo {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(5px, 0);
+  }
+  20% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(5px, 0);
+  }
+  40% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.oxmod-smct-index .gogogo {
+  position: absolute;
+  font-size: 1.2em;
+  margin-left: 5px;
+  animation-name: gogogo;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
