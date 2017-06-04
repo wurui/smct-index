@@ -9,6 +9,8 @@
   color: #555;
   background-color: #f0f0f0;
   text-align: center;
+  width: 100%;
+  overflow-x: hidden;
 }
 .oxmod-smct-index .iconfont {
   font-family: smct-index-iconfont;
@@ -101,6 +103,9 @@
 }
 .oxmod-smct-index .demoplayer {
   height: 200px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 .oxmod-smct-index .demoplayer .demo {
   transition: all .5s;
@@ -144,6 +149,7 @@
   display: inline-block;
   vertical-align: top;
   color: #fff;
+  font-size: 13px;
 }
 .oxmod-smct-index .screen-demo img {
   width: 140px;

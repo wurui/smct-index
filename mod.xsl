@@ -125,7 +125,7 @@
             </section>
 
 
-            <section class="section" style="background-color: #3f86d2;">
+            <section class="section" style="background-color: #3f86d2;font-size:0;padding:15px 0;">
                 <br/>
                 <h2 style="color:#fff;font-size:24px;">如何使用</h2>
                 <span class="screen-demo">
