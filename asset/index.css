@@ -127,6 +127,7 @@
   overflow: hidden;
   border-radius: 5px;
   font-weight: 700;
+  width: 100%;
 }
 .oxmod-smct-index .demo img {
   width: 100%;
