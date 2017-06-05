@@ -48,7 +48,7 @@
                 </h1>
 
                 <div style="min-height: 250px;">
-                    <img src="http://v.oxm1.cc/img/sucai/smct.png"
+                    <img src="http://v.oxm1.cc/img/sucai/smct2.png"
                          style="margin-top:10px;"/>
                 </div>
                 <div style="padding:0 15px;">
