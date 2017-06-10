@@ -1,10 +1,12 @@
 .oxmod-smct-index {
   /* CSS */
+  -webkit-text-size-adjust: 100%;
   color: #555;
   background-color: #eed09b;
   text-align: center;
   width: 100%;
   overflow-x: hidden;
+  font-size: 12px;
 }
 .oxmod-smct-index img {
   border: none;
@@ -35,9 +37,11 @@
   background: url(http://i.oxm1.cc/uploads/git/wurui/img/2afli617pTj3quvki3Rko9aAf7x-282.png) no-repeat;
   background-size: 85%;
   color: transparent;
-  font-size: 14px;
-  line-height: 2;
+  font-size: 12px;
+  line-height: 26px;
   max-width: 360px;
+  white-space: nowrap;
+  overflow: hidden;
   margin: 0 auto;
 }
 .oxmod-smct-index .txt1 {
@@ -156,6 +160,7 @@
   font-size: 12px;
   padding: 16px 10px;
   box-sizing: border-box;
+  max-width: 400px;
 }
 .oxmod-smct-index .intro > h3.em {
   font-size: inherit;

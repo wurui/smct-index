@@ -2,6 +2,7 @@
 
 .oxmod-smct-index{
 /* CSS */
+  -webkit-text-size-adjust:100%;
   img{
     border:none;
   }
@@ -9,6 +10,7 @@
   background-color: #eed09b;
   text-align: center;
   width:100%;overflow-x:hidden;
+  font-size:12px;
   .iconfont{
     font-family: smct-index-iconfont;
     font-style:normal;
@@ -39,10 +41,12 @@
     //background-size: 300px;
     background-size: 85%;
     color:transparent;
-    font-size:14px;
-    line-height: 2;
+    font-size:12px;
+    line-height: 26px;
     max-width: 360px;
-    margin:0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    margin:0 auto;//border:solid 1px red;
   }
   .txt1{
     background-position: center -2px;
@@ -163,6 +167,7 @@
     font-size:12px;
     padding:16px 10px;
     box-sizing: border-box;
+    max-width:400px;
 
     >h3.em{
       font-size: inherit;
