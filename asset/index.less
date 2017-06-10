@@ -1,16 +1,12 @@
-@font-face {
-  font-family: 'smct-index-iconfont';  /* project id 266910 */
-  src: url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.eot');
-  src: url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.woff') format('woff'),
-  url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_0w3gcy6pjd29be29.svg#iconfont') format('svg');
-}
+
 
 .oxmod-smct-index{
 /* CSS */
+  img{
+    border:none;
+  }
   color:#555;
-  background-color: #f0f0f0;
+  background-color: #eed09b;
   text-align: center;
   width:100%;overflow-x:hidden;
   .iconfont{
@@ -18,17 +14,17 @@
     font-style:normal;
   }
   .bt-start {
-    width: 200px;
-    height: 50px;
+    width: 240px;
+    height: 36px;
     color: #fff;
-    background-color: #0b97c4;
+    background-color: #e90000;
     font-size: 16px;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 1px 1px 1px #ccc;
     transition: all .5s;
     display: inline-block;
-    line-height: 50px;
+    line-height: 36px;
     text-decoration: none;
     text-align: center;
   }
@@ -37,39 +33,203 @@
   .bt-start:hover {
     opacity: .9;
   }
+  .txt{
+    background:url(http://i.oxm1.cc/uploads/git/wurui/img/2afli617pTj3quvki3Rko9aAf7x-282.png) no-repeat;
+    background-size: 95%;
+    color:transparent;
+    font-size:15px;
+    line-height: 2;
+  }
+  .txt1{
+    background-position: center 0;
+  }
+  .txt2{
+    background-position: center 50%;
+  }
+  .txt3{
+    background-position: center 100%;
+  }
+  .arr-down{
+    background: url(http://i.oxm1.cc/uploads/git/wurui/img/2afli61owTj3quvk0wR7ui8A8ug-5300.png) no-repeat 3px 100%;
+    width:20px;
+    height:20px;
+    background-size: 180%;
+  }
 
-  .process{
+  .quote{
+    width:100%;
+    &:before,&:after{
+      content: '';
+      position: absolute;
+      width:12px;
+      height:12px;
+      border-width:3px;
+      border-color: #f8fd00;
+    }
+    &:before{
+      border-style:solid none none solid;
+      margin-top:-7px;
+      margin-left:4%;
+      left:0;
+    }
+    &:after{
+      border-style:none solid solid none;
+      margin-top:-7px;
+      margin-right:4%;
+      right:0;
+    }
+  }
+  .imgplayer{
+    width:88%;
+    height:150px;
+    margin:0 auto;
+    overflow: hidden;
+
+    img{
+      width:100%;
+      height:150px;
+      margin-bottom:-24px;
+    }
+  }
+  @keyframes imgplay {
+    0% {
+      transform: translate(0, 0);
+    }
+    24% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(-100%, 0);
+    }
+    49% {
+      transform: translate(-100%, 0);
+    }
+    50% {
+      transform: translate(-200%, 0);
+    }
+    74% {
+      transform: translate(-200%, 0);
+    }
+    75% {
+      transform: translate(-300%, 0);
+    }
+    99% {
+      transform: translate(-300%, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  .player-items{
+    white-space: nowrap;
+
+    animation-name: imgplay;
+    animation-duration: 20s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .player-item{
+    display: inline-block;
+    font-size:0;
+  }
+
+  .desc{
+    height:24px;
+    line-height: 24px;
+    width:100%;
+    display: inline-block;
+    background: rgba(100,100,100,.7);
+    color:#fff;
+    text-align: center;
+    font-size:14px;
+  }
+  .intro{
+    background-color: #fff3d9;
+    border-radius: 20px;
+    width:94%;
+    margin:0 auto;
+    font-size:10px;
+    padding:16px 10px;
+    box-sizing: border-box;
+
+    >h3.em{
+      font-size: inherit;
+      color:#f60;
+    }
+  }
+  .title1,.title2{
+    margin-top: -32px;
+    height: 30px;
+    background: url(http://i.oxm1.cc/uploads/git/wurui/img/2afli61gqTj3quvk92R9eajA3wz-525.png) no-repeat center 0;
+    background-size: 50%;
+    color:transparent;
+  }
+  .title1{
+    background-position: center 0px;
+  }
+  .title2{
+    background-position: center -35px;
+  }
+
+  .features{
     text-align: left;
-    padding:0px 20px;
+    margin-left:5px;
+    padding-left:14px;
+    color:#555;
+    li{
+      list-style: disc;
+      padding:5px 0 0;
+    }
   }
   .step {
     display: inline-block;
     font-size: 12px;
     vertical-align: top;
     width:100%;
-    line-height: 20px;
-    margin-top:-5px;
+    line-height: 30px;
+    padding-left: 35px;
+    background: url(http://i.oxm1.cc/uploads/git/wurui/img/2afli61owTj3quvk0wR7ui8A8ug-5300.png) no-repeat 0 0;
+    background-size: 32px;
+    margin-top: 5px;
 
   }
+  .step-icon{
+    background: url(http://i.oxm1.cc/uploads/git/wurui/img/2afli61owTj3quvk0wR7ui8A8ug-5300.png) no-repeat;
+    width:28px;
+    height:28px;
+    vertical-align: middle;
 
-  .step .iconfont {
-    color: #09c;
-    font-size:20px;
-    vertical-align: baseline;
-    display: inline-block;
-    margin-right:10px;
   }
+  .step-icon-1{
+    background-position: 0 -3px;
+  }
+  .step-icon-2{
+    background-position: 0 -36px;
+  }
+  .step-icon-3{
+    background-position: 0 -68px;
+  }
+  .step-icon-4{
+    background-position: 0 -96px;
+  }
+  .process{
+    text-align: left;
+    padding:0px 20px;
+    margin-top: 10px;
+  }
+
 
   .arrow {
-    font-family: smct-index-iconfont;
-    font-style: normal;
-    color: #ccc;
-    font-size: 12px;
+    background: url(http://i.oxm1.cc/uploads/git/wurui/img/2afli61owTj3quvk0wR7ui8A8ug-5300.png) no-repeat 0 -156px;
     display: inline-block;
-    vertical-align: top;
-    transform: rotate(90deg);
-
-    margin:-5px 0 -9px 35px;
+    width:20px;
+    height:20px;
+    background-size: 200%;
+    margin-left:22px;
+    margin-top:22px;
+    position: absolute;
   }
 
   .ul-1 {
@@ -169,44 +329,7 @@
       margin:5px;
     }
   }
-  .features{
-    text-align: left;
-    margin-left:20px;
-    li{
-      list-style: disc;
-      padding:5px 0;
-    }
-  }
-  @keyframes gogogo {
-    0%{
-      transform: translate(0,0);
-    }
-    10%{
-      transform: translate(5px,0);
-    }
-    20%{
-      transform: translate(0,0);
-    }
-    30%{
-      transform: translate(5px,0);
-    }
-    40%{
-      transform: translate(0,0);
-    }
-    100%{
-      transform: translate(0,0);
-    }
-  }
-  .gogogo{
-    position: absolute;
-    font-size:1.2em;
-    margin-left:5px;
-    animation-name: gogogo;
-    animation-duration:2s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-timing-function:linear;
-  }
+
 
 
 }
