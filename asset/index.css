@@ -14,8 +14,9 @@
   font-style: normal;
 }
 .oxmod-smct-index .bt-start {
-  width: 240px;
-  height: 36px;
+  width: 75%;
+  height: 40px;
+  line-height: 40px;
   color: #fff;
   background-color: #e90000;
   font-size: 16px;
@@ -24,7 +25,6 @@
   box-shadow: 1px 1px 1px #ccc;
   transition: all .5s;
   display: inline-block;
-  line-height: 36px;
   text-decoration: none;
   text-align: center;
 }
@@ -33,16 +33,16 @@
 }
 .oxmod-smct-index .txt {
   background: url(http://i.oxm1.cc/uploads/git/wurui/img/2afli617pTj3quvki3Rko9aAf7x-282.png) no-repeat;
-  background-size: 95%;
+  background-size: 85%;
   color: transparent;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 2;
 }
 .oxmod-smct-index .txt1 {
-  background-position: center 0;
+  background-position: center -2px;
 }
 .oxmod-smct-index .txt2 {
-  background-position: center 50%;
+  background-position: center 55%;
 }
 .oxmod-smct-index .txt3 {
   background-position: center 100%;
@@ -144,7 +144,7 @@
   border-radius: 20px;
   width: 94%;
   margin: 0 auto;
-  font-size: 10px;
+  font-size: 12px;
   padding: 16px 10px;
   box-sizing: border-box;
 }
@@ -157,14 +157,14 @@
   margin-top: -32px;
   height: 30px;
   background: url(http://i.oxm1.cc/uploads/git/wurui/img/2afli61gqTj3quvk92R9eajA3wz-525.png) no-repeat center 0;
-  background-size: 50%;
+  background-size: 145px;
   color: transparent;
 }
 .oxmod-smct-index .title1 {
   background-position: center 0px;
 }
 .oxmod-smct-index .title2 {
-  background-position: center -35px;
+  background-position: center -37px;
 }
 .oxmod-smct-index .features {
   text-align: left;
@@ -178,7 +178,7 @@
 }
 .oxmod-smct-index .step {
   display: inline-block;
-  font-size: 12px;
+  font-size: 13px;
   vertical-align: top;
   width: 100%;
   line-height: 30px;

@@ -71,7 +71,7 @@
                 <h3 class="txt txt3">扫码车贴为您保驾护航</h3>
                 <div style="font-size:14px;line-height:2;">安全&#183;时尚&#183;便捷</div>
                 <div class="intro">
-                    <img src="http://v.oxm1.cc/img/sucai/func.png" width="260"/>
+                    <img src="http://v.oxm1.cc/img/sucai/func.png" width="92%"/>
                     <table width="100%" class="func">
                         <tbody>
                             <tr>
