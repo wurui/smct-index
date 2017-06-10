@@ -100,22 +100,22 @@
     transform: translate(0, 0);
   }
   25% {
-    transform: translate(-100%, 0);
+    transform: translate(-25%, 0);
   }
   49% {
-    transform: translate(-100%, 0);
+    transform: translate(-25%, 0);
   }
   50% {
-    transform: translate(-200%, 0);
+    transform: translate(-50%, 0);
   }
   74% {
-    transform: translate(-200%, 0);
+    transform: translate(-50%, 0);
   }
   75% {
-    transform: translate(-300%, 0);
+    transform: translate(-75%, 0);
   }
   99% {
-    transform: translate(-300%, 0);
+    transform: translate(-75%, 0);
   }
   100% {
     transform: translate(0, 0);
@@ -123,13 +123,18 @@
 }
 .oxmod-smct-index .player-items {
   white-space: nowrap;
+  font-size: 0;
+  width: 400%;
+  height: 100%;
+  overflow: visible;
   animation-name: imgplay;
   animation-duration: 12s;
-  animation-delay: 0s;
+  animation-delay: .1s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 .oxmod-smct-index .player-item {
+  width: 25%;
   display: inline-block;
   font-size: 0;
 }
