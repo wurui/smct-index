@@ -7,7 +7,7 @@
                 <img src="http://i.oxm1.cc/uploads/git/wurui/img/2afli628tTj3quvjgzRm1cwA204t-846.jpg" width="100%"/>
             </section>
             <section>
-                <a href="{$startlink}" class="bt-start">我要一张</a>
+                <a href="{$startlink}" class="bt-start">我要一张<span class="bt-tip">极速车手红包最高可领<big>15.88</big>元</span></a>
             </section>
             <section>
                 <br/>
@@ -51,7 +51,7 @@
                 <br/>
                 <div class="intro">
                     <div class="title1">扫码车贴</div>
-                    <h3 class="em">车主可在本平台定制购买一张专属车贴,我们为你解决移车烦恼!</h3>
+                    <h3 class="em">定制购买一张你的专属车贴,我们为你解决移车烦恼!</h3>
                     <ul class="features">
                         <li>
                             扫码车贴通过加密算法,生成一个唯一属于车主的二维码
@@ -118,7 +118,7 @@
             </section>
             <br/>
             <section>
-                <a href="{$startlink}" class="bt-start">我要一张</a>
+                <a href="{$startlink}" class="bt-start">我要一张<span class="bt-tip">极速车手红包最高可领<big>15.88</big>元</span></a>
                 <br/><br/>
                 <div class="quote">
                     <div style="font-size:0;"><img src="http://v.oxm1.cc/img/sucai/combo.jpg" width="88%"/></div>

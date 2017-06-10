@@ -41,6 +41,8 @@
     color:transparent;
     font-size:14px;
     line-height: 2;
+    max-width: 360px;
+    margin:0 auto;
   }
   .txt1{
     background-position: center -2px;
@@ -60,6 +62,8 @@
 
   .quote{
     width:100%;
+    max-width:400px;
+    margin:0 auto;
     &:before,&:after{
       content: '';
       position: absolute;
@@ -126,7 +130,7 @@
     white-space: nowrap;
 
     animation-name: imgplay;
-    animation-duration: 20s;
+    animation-duration: 12s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -222,6 +226,86 @@
     margin-top: 10px;
   }
 
+  @keyframes lookatme {
+    0% {
+      opacity: 0;
+    }
+    24% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    50% {
+      transform: translate(0, 0px);
+
+    }
+    51% {
+      transform: translate(0, 3px);
+
+    }
+    52% {
+      transform: translate(0, 0px);
+
+    }
+    53% {
+      transform: translate(0, 3px);
+
+    }
+    54% {
+      transform: translate(0, 0px);
+
+    }
+    55% {
+      transform: translate(0, 0px);
+
+    }
+    90% {
+      opacity: 1;
+    }
+    91% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .bt-tip{
+    position: absolute;
+    background-color: rgba(0,0,0,.9);
+    opacity: .8;
+    height:20px;
+    line-height: 20px;
+    padding:0 5px;
+    border-radius: 5px;
+    border:solid 1px #999;
+    font-size:10px;
+    white-space: nowrap;
+    margin-left:-100px;
+    margin-top:-25px;
+    box-shadow: 0 1px 3px #999;
+
+    animation-name: lookatme;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    big{
+      color:#f60;
+    }
+    &:after{
+      content: '';
+      width:0;
+      height:0;
+      position: absolute;
+      border-style: solid;
+      border-width: 6px;
+      border-color:rgba(0,0,0,.9) transparent transparent transparent;
+      margin-left:-30px;
+      margin-top:20px;
+    }
+  }
 
   .arrow {
     background: url(http://i.oxm1.cc/uploads/git/wurui/img/2afli61owTj3quvk0wR7ui8A8ug-5300.png) no-repeat 0 -156px;
